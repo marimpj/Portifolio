@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    font-family: cursive;
+}
+
+.logo {
+     display: flex;
+     justify-content: center; 
+     margin: 2% 0%;       
+     width: 100%; 
+}
+
+header ul{
+    list-style-type: none;
+    margin: 3px 0px;
+    padding: 3px;
+    width: 100%;
+    background: #5d2535;
+    float: left; /*como o fluxo do li é flutuante, o do ul tambem tem que ser*/
+}
+
+header ul li {
+    float: left; /*Para colocar os li flutuando*/
+    margin: 0px auto;
+    font-size: 1.1em;
+}
+
+
+header ul a {
+    line-height: 1em;
+    text-decoration: none;
+    padding: 0 3em;
+}
+
+header ul a:hover {
+    color: #d1426d;
+    text-decoration: none;
+}
+
+.projeto {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.texto {
+    padding: 10px 40px 20px 40px;
+}
+
+.bgt{
+    margin: auto;
+    margin-top: -10px;
+    width: 125px;
+}
+
+
+#cv{
+    margin: 5%;
+    width: 90%;
+}
+
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 13%;
+}
+
+
+@media only screen and (max-width: 576px) {
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 18%;  
+}
+.div-logo {
+    width: 70%; height:auto; background: #973351; margin: auto; border-radius: 13px;
+}
+body{
+    font-family: 'Balsamiq Sans';
+}
+
+}
+
+.div-logo {
+    width: 70%; height:auto; background: #973351; margin: auto; border-radius: 13px;
+}
+
+.img-logo{
+    width: 55%;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
